@@ -9,6 +9,9 @@ import { AboutComponent } from './about/about.component';
 import { ExploreMapComponent } from './explore-map/explore-map.component';
 import { ContactComponent } from './contact/contact.component';
 import { GuideComponent } from './guide/guide.component';
+import { RouterModule, Routes } from '@angular/router'; 
+import { appRoutes } from './app.routes'; 
+
 
 @NgModule({
   declarations: [
@@ -22,6 +25,8 @@ import { GuideComponent } from './guide/guide.component';
   imports: [
     BrowserModule,
     FormsModule,
+    RouterModule.forRoot(appRoutes),
+
     HttpModule
   ],
   providers: [],
