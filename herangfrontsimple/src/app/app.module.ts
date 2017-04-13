@@ -4,10 +4,20 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
+import { HomeComponent } from './home/home.component';
+import { AboutComponent } from './about/about.component';
+import { ExploreMapComponent } from './explore-map/explore-map.component';
+import { ContactComponent } from './contact/contact.component';
+import { GuideComponent } from './guide/guide.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HomeComponent,
+    AboutComponent,
+    ExploreMapComponent,
+    ContactComponent,
+    GuideComponent
   ],
   imports: [
     BrowserModule,
